@@ -6,7 +6,7 @@
 - git
 - docker
 - hexo-cli
-- hexo-server
+- hexo-server 
 # 启动
 在本机的80端口启动
 ```bash
