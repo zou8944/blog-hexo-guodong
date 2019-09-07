@@ -6,7 +6,7 @@ tags:
 categories: 
     - python
 ---
-## 一. 要有project
+## 要有project
 
 创建一个基本的Project, 这样我们才能开始工作
 
@@ -14,7 +14,7 @@ categories:
 django-admin startproject <工程名>
 ```
 <!-- more -->
-## 二. 要能访问数据库
+## 要能访问数据库
 
 Django说, 要访问数据库必须创建app和model, 于是, 我们开始创建
 
@@ -169,7 +169,7 @@ Django说, 要访问数据库必须创建app和model, 于是, 我们开始创建
   ```
 
 
-## 三. 要有静态资源
+## 要有静态资源
 
 将所有静态资源全部放入templates
 修改settings.py中的静态文件位置配置
@@ -202,7 +202,7 @@ TEMPLATES = [
 ]
 ```
 
-## 四. 要有路由
+## 要有路由
 
 在project的urls.py文件中添加我们的路由
 
@@ -232,7 +232,7 @@ def homepage(request):
     return render_to_response('login.html')
 ```
 
-## 五. 发挥吧
+## 发挥吧
 
 上面已经把基本的框架都搭好了.我们已经可以
 
@@ -243,7 +243,7 @@ def homepage(request):
 
 剩下的就是纯粹业务上的事情了.
 
-## 六. 参考资料
+## 参考资料
 
 如果觉得上面有些地方前后没有联系起来, 那么可以结合下面这个简单的菜鸟教程看看
 
