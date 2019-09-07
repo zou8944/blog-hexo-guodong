@@ -1,7 +1,10 @@
 ---
 title: 使用Django从零搭建一个小型站点
 date: 2019-09-06 22:35:24
-tags:
+tags: 
+    - django
+categories: 
+    - python
 ---
 ## 一. 要有project
 
