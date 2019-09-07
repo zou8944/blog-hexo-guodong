@@ -41,10 +41,10 @@ custom_file_path:
 
 favicon:
   favicon:
-  small: /images/favicom-dufu.png
-  medium: /images/favicom-dufu.png
-  apple_touch_icon: /images/favicom-dufu.png
-  safari_pinned_tab: /images/favicom-dufu.png
+  small: /images/icon-dufu.png
+  medium: /images/icon-dufu.png
+  apple_touch_icon: /images/icon-dufu.png
+  safari_pinned_tab: /images/icon-dufu.png
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -62,7 +62,7 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: user
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
     color: "#808080"
 
@@ -83,7 +83,7 @@ footer:
 
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: false
+    enable: true
     icp: 粤ICP备19105095号
     # The digit in the num of gongan beian.
     gongan_id:
@@ -99,8 +99,8 @@ footer:
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-nc-sa
-  sidebar: false
-  post: false
+  sidebar: true
+  post: true
   language: zh-CN
 
 
@@ -229,7 +229,7 @@ avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url: /images/avatar-dufu.gif
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # If true, the avatar would be rotated with the cursor.
