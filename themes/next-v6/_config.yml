@@ -482,10 +482,10 @@ github_banner:
 font:
   # Use custom fonts families or not.
   # Depended options: `external` and `family`.
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
-  host:
+  host: https://fonts.cat.net
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -496,7 +496,7 @@ font:
   global:
     external: true
     family: Lato
-    size:
+    size: 1
 
   # Font settings for site title (.site-title).
   title:
