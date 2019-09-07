@@ -179,8 +179,8 @@ menu_settings:
 
 # Schemes
 # scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Mist
+# scheme: Pisces
 scheme: Gemini
 
 
@@ -739,7 +739,7 @@ add_this_id:
 # ---------------------------------------------------------------
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+baidu_analytics: 91abe5fa3faf2c4f0e5e192e197dc348 # <app_id>
 
 # Growingio Analytics
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
@@ -781,7 +781,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
@@ -912,10 +912,10 @@ motion:
     # slideUpIn | slideUpOut | slideDownIn | slideDownOut | slideLeftIn | slideLeftOut | slideRightIn | slideRightOut
     # slideUpBigIn | slideUpBigOut | slideDownBigIn | slideDownBigOut | slideLeftBigIn | slideLeftBigOut | slideRightBigIn | slideRightBigOut
     # perspectiveUpIn | perspectiveUpOut | perspectiveDownIn | perspectiveDownOut | perspectiveLeftIn | perspectiveLeftOut | perspectiveRightIn | perspectiveRightOut
-    post_block: fadeIn
+    post_block: slideUpBigIn
     post_header: slideDownIn
     post_body: slideDownIn
-    coll_header: slideLeftIn
+    coll_header: slideDownIn
     # Only for Pisces | Gemini.
     sidebar: slideUpIn
 
@@ -936,18 +936,18 @@ three:
   delay: false # Set true to further delay loading
   three_waves: false
   canvas_lines: false
-  canvas_sphere: false
+  canvas_sphere: true
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 # For more information: https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   onmobile: true # Display on mobile or not
   color: "0,0,255" # RGB values, use `,` to separate
   opacity: 0.5 # The opacity of line: 0~1
   zIndex: -1 # z-index property of the background
-  count: 99 # The number of lines
+  count: 300 # The number of lines
 
 # Canvas-ribbon
 # Dependencies: https://github.com/theme-next/theme-next-canvas-ribbon
@@ -956,7 +956,7 @@ canvas_ribbon:
   enable: false
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
-  zIndex: -1 # The display level of the ribbon
+  zIndex: 2 # The display level of the ribbon
 
 
 #! ---------------------------------------------------------------
