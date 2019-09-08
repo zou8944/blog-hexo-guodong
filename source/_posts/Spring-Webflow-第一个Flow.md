@@ -12,12 +12,13 @@ categories:
 
 # 需求说明
 假设有如下简单流程：要求程序启动，显式输入界面，用户输入信息后，点击提交按钮，后台查询数据库，然后显式查询结果界面，中间任何步骤出错，都重新返回输入界面，并显示错误信息。流程大体如下。
-![需求流程图](https://img-blog.csdn.net/20180906212548121?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pvdTg5NDQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+<!-- more -->
+![需求流程图](20180906212548121.png)
 # 需求分析
 将上述需求分解：流程启动时，初始化输入界面的信息，渲染输入页面，用户点击提交按钮，后台验证输入信息的格式是否正确，验证失败则返回输入界面，验证成功则进行下一步查询数据库操作，查询完成后跳转到结果页面进行显示，流程结束。(请忽略如下流程中判断图示不标准的错误)
-![逻辑流程图](https://img-blog.csdn.net/20180906213226568?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pvdTg5NDQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![逻辑流程图](20180906213226568.png)
 # 运行前的基本配置
-首先需要将FlowRegistry，FlowExecutor，FlowHandlerAdapter，FlowHandlerMapping等项配置好。本文的采用了[Spring Web Flow 学习 —— 配置 - 001](https://blog.csdn.net/zou8944/article/details/82391712)的配置。
+首先需要将FlowRegistry，FlowExecutor，FlowHandlerAdapter，FlowHandlerMapping等项配置好。本文的采用了[Spring Web Flow 学习 —— 配置 - 001](https://www.zouguodong.top/2018/09/05/Spring%20Webflow%20-%20%E9%85%8D%E7%BD%AE/)的配置。
 # Flow文件
 如下配置文件讲解: 
 
@@ -69,7 +70,7 @@ categories:
 </flow>
 ```
 看完上面的描述，想必刚接触web flow的人是一脸懵逼
-![这里写图片描述](https://img-blog.csdn.net/20180906215538433?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pvdTg5NDQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](20180906215538433.jpeg)
 解释几个概念就好了。
 
  - 状态：web flow将一个步骤称作一个状态(state)，有专门渲染view的view-state，也有只执行操作的action-state
