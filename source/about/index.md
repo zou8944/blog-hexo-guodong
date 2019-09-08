@@ -3,11 +3,6 @@ title: 关于
 date: 2019-09-07 11:35:10
 comments: false
 ---
-# 我?
-叫我: 果冻
-代号: floyd; guodong; gd; zou8944
-Email: zou-guo-dong@163.com
-
 # 关于这里
 2015年, 我是硬件狗, 一直想要写点什么, 开始接触博客, 试着写了一两篇, 没什么感觉, 于是放弃
 
@@ -32,3 +27,10 @@ Email: zou-guo-dong@163.com
 - 积累技术, 努力工作, 坚持学习, 认真生活
 - 多学语言, 多学思想
 - Java, Kotlin, Python, 异步
+
+# 关于我
+叫我: 果冻
+代号: floyd; guodong; gd; zou8944
+Email: zou-guo-dong@163.com
+微信: zou894475
+<img src="/images/mycard.jpg" width = "300" height = "300" alt="图片名称" align="center">
