@@ -38,7 +38,7 @@ Angular使用双向数据绑定，React用于单数据流，Vue支持两者。�
 
 ## 图片对比
 
-![图片对比](AngularJS——技术巡礼/JsFrameWorkComparison.jpeg)
+![图片对比](JsFrameWorkComparison.jpeg)
 
 ## 简单说
 如果您比其他功能更喜欢灵活性，请使用React。
