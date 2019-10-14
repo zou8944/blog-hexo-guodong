@@ -9,6 +9,7 @@ categories:
 
 > 想要写一篇介绍SockJS的文章，又不知道写什么好，发现官方github项目上这篇文章比较好，于是直接翻译过来。不长不短，正好合适。
 > 该文章发布于2016年，某些论述可能已经过时，这里尝试加以纠正，但有谬误，还请指正。
+<!-- more -->
 
 原文 —— [WebSocket emulation done right](https://github.com/sockjs/sockjs-client/wiki/%5BArticle%5D-SockJS:-WebSocket-emulation-done-right)
 
