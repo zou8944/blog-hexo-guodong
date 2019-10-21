@@ -6,7 +6,7 @@ tags:
 categories:
   - 容器
 ---
-#POD 
+# POD 
 
 POD是K8S中最为核心的概念，而其它对象仅仅是用于管理、暴露POD或被POD使用。
 
