@@ -1,10 +1,11 @@
 ---
-title: RxJava - 读书笔记
+title: RxJava初探
 date: 2019-09-08 11:00:21
 tags: 
     - RxJava
 categories: 
-    - RxJava
+    - 响应式
+    - 读书笔记
 ---
 
 ## Observable

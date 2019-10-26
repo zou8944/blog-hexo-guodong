@@ -1,10 +1,11 @@
 ---
-title: Kubernetes-POD
+title: Kubernetes初探 - POD
 date: 2019-10-21 20:42:18
 tags:
   - kubernetes
 categories:
   - 容器
+  - 读书笔记
 ---
 # POD 
 

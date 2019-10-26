@@ -1,5 +1,5 @@
 ---
-title: Angular 和 Vue 和 React——技术巡礼
+title: 技术巡礼 - Angular 和 Vue 和 React
 date: 2019-10-13 16:20:57
 tags:
   - Angular

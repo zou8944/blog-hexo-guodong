@@ -1,10 +1,11 @@
 ---
-title: Kubernetes-访问pod元数据及其它资源
+title: Kubernetes初探 - 访问pod元数据及其它资源
 date: 2019-10-26 11:49:30
 tags:
   - kubernetes
 categories:
   - 容器
+  - 读书笔记
 ---
 ## 通过Downward API
 

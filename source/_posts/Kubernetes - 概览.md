@@ -1,10 +1,11 @@
 ---
-title: Kubernetes-概览
+title: Kubernetes初探 - 概览
 date: 2019-10-21 20:28:01
 tags:
   - kubernetes
 categories:
   - 容器
+  - 读书笔记
 ---
 ## 是什么
 
