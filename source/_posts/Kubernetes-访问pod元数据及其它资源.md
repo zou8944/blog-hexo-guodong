@@ -9,7 +9,7 @@ categories:
 ## 通过Downward API
 
 想要获得预先无法知晓的数据，比如POD的IP、主机名等，可以通过Downward API获取。虽然名叫API，但它允许我们通过环境变量或者downward卷传递pod中的数据，而不是通过发送请求的方式。其结构如下
-
+<!--more-->
 ![image-20191026095824633](image-20191026095824633.png)
 
 通过Downward API，我们可以获得如下pod数据
