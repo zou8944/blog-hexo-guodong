@@ -5,7 +5,8 @@ tags:
     - Spring
     - Webflow
 categories: 
-    - Spring Webflow
+    - Spring
+    - Webflow
 ---
 
 # action-state

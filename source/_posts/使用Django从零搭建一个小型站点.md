@@ -1,5 +1,5 @@
 ---
-title: 使用Django从零搭建一个小型站点
+title: Django初探 - 记一次完整的配置过程
 date: 2019-09-06 22:35:24
 tags: 
     - django

@@ -5,7 +5,8 @@ tags:
     - Spring
     - Webflow
 categories: 
-    - Spring Webflow
+    - Spring
+    - Webflow
 ---
 >  1. 本文基于Spring Web Flow 2.4.5，其它版本配置方式可能略有不同，请参考相应版本的[官方文档](https://projects.spring.io/spring-webflow/)
 >  2. Maven依赖

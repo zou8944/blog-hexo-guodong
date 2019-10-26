@@ -5,7 +5,6 @@ tags:
   - kubernetes
 categories:
   - 容器
-  - 读书笔记
 ---
 卷是pod容器的组成部分，并非K8S中的顶级资源，其生命周期和pod一致。可以在pod的文件系统的任何位置挂在卷。
 

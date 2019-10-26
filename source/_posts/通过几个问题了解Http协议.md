@@ -1,10 +1,11 @@
 ---
-title: 通过几个问题了解Http协议
+title: 通过几个问题了解HTTP协议
 date: 2018-10-15 22:31:33
 tags: 
-    - http
+    - HTTP
 categories: 
-    - http
+	- 协议
+	- HTTP
 ---
 
 ## Http全称？

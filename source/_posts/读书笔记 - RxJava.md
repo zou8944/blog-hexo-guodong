@@ -5,7 +5,6 @@ tags:
     - RxJava
 categories: 
     - 响应式
-    - 读书笔记
 ---
 
 ## Observable

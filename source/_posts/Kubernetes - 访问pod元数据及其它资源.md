@@ -5,7 +5,6 @@ tags:
   - kubernetes
 categories:
   - 容器
-  - 读书笔记
 ---
 ## 通过Downward API
 
