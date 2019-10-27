@@ -1,12 +1,13 @@
 ---
 title: Spring Webflow - 视图状态
+tags:
+  - Spring
+  - Webflow
+categories:
+  - Spring
+  - Webflow
+abbrlink: c004a3d9
 date: 2018-09-09 14:00:00
-tags: 
-    - Spring
-    - Webflow
-categories: 
-    - Spring
-    - Webflow
 ---
 
 # 基础

@@ -1,10 +1,11 @@
 ---
 title: 技术巡礼 - SockJS
-date: 2019-10-13 16:21:04
 tags:
   - Sock JS
 categories:
   - 技术巡礼
+abbrlink: 84722c0e
+date: 2019-10-13 16:21:04
 ---
 
 > 想要写一篇介绍SockJS的文章，又不知道写什么好，发现官方github项目上这篇文章比较好，于是直接翻译过来。不长不短，正好合适。

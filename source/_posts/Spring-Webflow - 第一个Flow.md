@@ -1,12 +1,13 @@
 ---
 title: Spring Webflow - 第一个Flow
+tags:
+  - Spring
+  - Webflow
+categories:
+  - Spring
+  - Webflow
+abbrlink: e5a07fa5
 date: 2018-09-06 23:00:00
-tags: 
-    - Spring
-    - Webflow
-categories: 
-    - Spring
-    - Webflow
 ---
 
 > 在学习每一门新语言时，第一个程序往往是Hello World。这里我们写一个非常简单的flow，使用常用标签，在深入讲解之前有一个感官上的认识

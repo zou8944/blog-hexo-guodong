@@ -1,12 +1,13 @@
 ---
 title: Spring Webflow - 前言
+tags:
+  - Spring
+  - Webflow
+categories:
+  - Spring
+  - Webflow
+abbrlink: bc64f5c8
 date: 2018-09-04 20:00:00
-tags: 
-    - Spring
-    - Webflow
-categories: 
-    - Spring
-    - Webflow
 ---
 
 虽然之前没有听说过Spring Web Flow这个东西，听说之后上网查了一下又有很多人不屑于使用web flow，但自己目前工作上的项目要用到它，因此学习是很有必要的。当学习一项新技术时，最快捷的方式就是上网搜索速成教程，看了一些，总觉得有些不得要领，于是转向官方文档。又怕自己久了会忘，故此写一套学习笔记，详细地介绍使用方法。该笔记参考官方文档，自己加以整理而成。

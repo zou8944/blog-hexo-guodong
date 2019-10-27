@@ -1,10 +1,11 @@
 ---
 title: Kubernetes初探 - Deployment
-date: 2019-10-27 12:28:48
 tags:
   - kubernetes
 categories:
   - 容器
+abbrlink: afe1d0dd
+date: 2019-10-27 12:28:48
 ---
 前面介绍了各种Kubernetes资源以及使用方法，但在实际使用中，发布和升级总是避免不了的话题。使用一个容器级别的工具，每次发布时候敲一大段命令肯定是不行的，K8S提供声明式的发布升级方式，只需替换镜像即可触发，且提供滚动升级、回滚、暂停等操作。
 <!-- more -->

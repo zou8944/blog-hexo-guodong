@@ -1,12 +1,13 @@
 ---
 title: Spring Webflow - 基础
+tags:
+  - Spring
+  - Webflow
+categories:
+  - Spring
+  - Webflow
+abbrlink: e4a6ab86
 date: 2018-09-07 21:33:00
-tags: 
-    - Spring
-    - Webflow
-categories: 
-    - Spring
-    - Webflow
 ---
 
 # 基础

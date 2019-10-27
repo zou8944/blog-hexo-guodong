@@ -1,10 +1,11 @@
 ---
 title: Kubernetes初探 - Service
-date: 2019-10-22 20:11:44
 tags:
   - kubernetes
 categories:
   - 容器
+abbrlink: 1c6e8423
+date: 2019-10-22 20:11:44
 ---
 第一篇文章已经说过了Service存在的意义，主要是由于POD机制无法对外提供一个稳定的地址，因此需要服务进行固定地址的暴露和负载均衡。官方一点的话：k8s的服务是一种为一组功能相同的pod提供单一不变的接入点的资源。
 <!-- more -->

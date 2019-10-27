@@ -1,5 +1,6 @@
 ---
 title: DNS
+abbrlink: 144a9ecb
 date: 2019-10-27 18:04:35
 tags:
 categories:

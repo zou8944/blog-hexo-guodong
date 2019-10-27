@@ -1,12 +1,13 @@
 ---
 title: 技术巡礼 - Angular 和 Vue 和 React
-date: 2019-10-13 16:20:57
 tags:
   - Angular
   - Vue
   - React
 categories:
   - 技术巡礼
+abbrlink: ea95655b
+date: 2019-10-13 16:20:57
 ---
 
 > 我是一个完全的前端菜鸟，并不知道这三个是啥玩意儿，只是查查资料，让自己稍微了解一些。顺便说，这篇文章都是从别的地方抄来的。

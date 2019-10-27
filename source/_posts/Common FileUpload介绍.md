@@ -1,11 +1,12 @@
 ---
 title: Common FileUpload介绍
+tags:
+  - fileupload
+  - apache
+categories:
+  - 工具
+abbrlink: 5024e11a
 date: 2019-09-07 22:31:33
-tags: 
-    - fileupload
-    - apache
-categories: 
-    - 工具
 ---
 
 > 这是一篇半翻译半笔记式的文章，如果你之前对Common FileUpload了解不多，本文可以快速了解如何使用方法，如果你有时间，推荐你看[官方文档](http://commons.apache.org/proper/commons-fileupload/using.html)

@@ -1,10 +1,11 @@
 ---
 title: RxJava初探
+tags:
+  - RxJava
+categories:
+  - 响应式
+abbrlink: d288ff8a
 date: 2019-09-08 11:00:21
-tags: 
-    - RxJava
-categories: 
-    - 响应式
 ---
 
 ## Observable

@@ -1,12 +1,13 @@
 ---
 title: Spring Webflow - Action
+tags:
+  - Spring
+  - Webflow
+categories:
+  - Spring
+  - Webflow
+abbrlink: 841ddf22
 date: 2018-09-08 11:00:00
-tags: 
-    - Spring
-    - Webflow
-categories: 
-    - Spring
-    - Webflow
 ---
 
 # action-state

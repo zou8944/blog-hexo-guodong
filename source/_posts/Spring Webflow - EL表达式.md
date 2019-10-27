@@ -1,12 +1,13 @@
 ---
 title: Spring Webflow - EL表达式
+tags:
+  - Spring
+  - Webflow
+categories:
+  - Spring
+  - Webflow
+abbrlink: ca3f3dff
 date: 2018-09-08 20:00:00
-tags: 
-    - Spring
-    - Webflow
-categories: 
-    - Spring
-    - Webflow
 ---
 
 > 1. 文章中内容并没有全部验证，仅作为参考

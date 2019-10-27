@@ -1,10 +1,11 @@
 ---
 title: Kubernetes初探 - POD
-date: 2019-10-21 20:42:18
 tags:
   - kubernetes
 categories:
   - 容器
+abbrlink: cbb08c68
+date: 2019-10-21 20:42:18
 ---
 Kubernetes是一个容器编排系统，维护节点集群，负责创建、管理容器，本章介绍k8s的核心POD（容器的容器）和负责管理POD策略性工具（决定如何维护POD的数量和方式）。
 <!-- more -->

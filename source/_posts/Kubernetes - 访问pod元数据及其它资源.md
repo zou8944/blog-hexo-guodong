@@ -1,10 +1,11 @@
 ---
 title: Kubernetes初探 - 访问pod元数据及其它资源
-date: 2019-10-26 11:49:30
 tags:
   - kubernetes
 categories:
   - 容器
+abbrlink: 22fe86ec
+date: 2019-10-26 11:49:30
 ---
 对于特殊的pod，比如系统监控应用，知晓应用运行环境的各项参数是很常见的功能。Kubernetes对此也提供了很好的支持，用户可以通过环境变量、文件、API等多种方式获取到相关数据。
 <!-- more -->

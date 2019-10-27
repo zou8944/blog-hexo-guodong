@@ -1,10 +1,11 @@
 ---
 title: Django初探 - 记一次完整的配置过程
+tags:
+  - django
+categories:
+  - python
+abbrlink: 812572d6
 date: 2019-09-06 22:35:24
-tags: 
-    - django
-categories: 
-    - python
 ---
 ## 要有project
 

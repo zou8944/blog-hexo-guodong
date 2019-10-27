@@ -1,10 +1,11 @@
 ---
 title: Kubernetesc初探 - StatefulSet
-date: 2019-10-27 18:12:25
 tags:
   - kubernetes
 categories:
   - 容器
+abbrlink: c441955b
+date: 2019-10-27 18:12:25
 ---
 什么是有状态pod，即pod的运行状态与该pod耦合，当发生pod调度时新创建的pod必须和原有pod保持一致的状态，否则会出现状态丢失。前面我们所学习的pod都是由RC或RS创建的，然而他们无法满足pod对状态的需求。于是我们有了StatefulSet，它是专门定制的一类应用，这类应用的每个实例都是不可替代的个体，都拥有稳定的名字和状态。
 <!-- more -->
