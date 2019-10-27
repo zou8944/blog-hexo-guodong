@@ -150,5 +150,3 @@ kubectl rollout history deployment kubia
 ```shell
 kubectl rollout undo deployment kubia
 ```
-
-# 
