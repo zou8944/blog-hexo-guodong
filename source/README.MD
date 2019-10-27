@@ -1,0 +1,1 @@
+文件baidu_verify_NxjgZGJjxA.html请不要删除，并在上生产时请将其复制到public根目录下，以保持百度的认证通过状态。
