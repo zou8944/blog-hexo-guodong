@@ -5,19 +5,19 @@ show_heart: true
 show_slogan: true
 
 menu:
-  - title: Archives
+  - title: 归档
     url: archives
     intro: "归档"
     # icon: "fa fa-archive"
-  - title: Categories
+  - title: 分类
     url: categories
     intro: "所有分类"
     # icon: "fa fa-folder"
   - title: Tags
     url: tags
-    intro: "所有标签"
+    intro: "标签"
     # icon: "fa fa-tags"
-  - title: About
+  - title: 关于
     url: about
     intro: "关于我"
     # icon: "fa fa-user"
