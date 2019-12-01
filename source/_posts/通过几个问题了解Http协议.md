@@ -3,8 +3,7 @@ title: 通过几个问题了解HTTP协议
 tags:
   - HTTP
 categories:
-  - 协议
-  - HTTP
+  - 网络基础
 abbrlink: bc6fa879
 date: 2018-10-15 22:31:33
 ---
