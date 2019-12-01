@@ -110,7 +110,7 @@ DNS，全称Domain Namespace System，即域名系统。是互联网一项核心
 
   域名资料库查询。可以通过该资料库找到一个域名的注册信息。对于大多数根域名服务器，基本的WHOIS库由ICANN管理，而WHOIS的具体细节则由该域的授权机构管理。如中国互联网信息中心（China Internet Network Information Center）负责.cn的WHOIS资料维护。
 
-# 参考文献
+# 参考资料
 1. [Amazon Route 53服务说明手册](https://aws.amazon.com/tw/route53/what-is-dns/)
 2. [阿里云云解析DNS服务说明手册](https://help.aliyun.com/document_detail/102237.html)
 3. [互联网史上最贵的域名排名榜（简书）](https://www.jianshu.com/p/1f3d930a8756)
