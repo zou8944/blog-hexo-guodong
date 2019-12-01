@@ -33,4 +33,4 @@ comments: false
 代号: gd; zou8944
 Email: zou-guo-dong@163.com
 微信: zou894475
-<img src="/img/mycard.jpg" width = "300" height = "300" alt="图片名称" align="center">
+<img src="/img/mycard.jpg" width = "200" height = "200" alt="图片名称" align="center">
