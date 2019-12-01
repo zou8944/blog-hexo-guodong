@@ -10,7 +10,7 @@ date: 2019-09-07 22:31:33
 ---
 
 > 这是一篇半翻译半笔记式的文章，如果你之前对Common FileUpload了解不多，本文可以快速了解如何使用方法，如果你有时间，推荐你看[官方文档](http://commons.apache.org/proper/commons-fileupload/using.html)
-
+<!--more-->
 # 概述
 FileUpload能够以多种不同的方式使用，具体取决于应用程序的要求。在最简单的情况下，您将调用单个方法来解析servlet请求，然后处理解析出来的Item集合。此外也可以自定义FileUpload以完全控制各个Item的存储方式，比如设置缓存目录、直接将接收到的Item以流的形式写入数据库等。
 

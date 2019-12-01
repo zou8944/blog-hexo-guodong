@@ -10,9 +10,9 @@ abbrlink: ea95655b
 date: 2019-10-13 16:20:57
 ---
 
-> 我是一个完全的前端菜鸟，并不知道这三个是啥玩意儿，只是查查资料，让自己稍微了解一些。顺便说，这篇文章都是从别的地方抄来的。
-
-# 他们是什么
+我是前端菜鸟，并不知道这三个是啥玩意儿，只是查查资料，让自己稍微了解一些。顺便说，这篇文章都是从别的地方抄来的。
+<!--more-->
+# 是什么
 
 ## React
 React是一个用于构建Web应用程序UI组件的JavaScript库。React由Facebook维护，许多领先的科技品牌在其开发环境中使用React。React被Facebook，Uber，Netflix，Twitter，Udemy，Paypal，Reddit，Tumblr，Walmart 等使用。来自Facebook的另一个受欢迎的企业React Native用于使用JavaScript和React构建本机移动应用程序。许多知名公司因其出色的特性和功能而转向React开发。该 阵营与Vue.js 主题也在网络上嗡嗡作响，为您提供了选择最佳框架的充分见解。

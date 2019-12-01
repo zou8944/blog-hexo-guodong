@@ -12,8 +12,9 @@ date: 2018-09-07 21:33:00
 
 # 基础
 
-&emsp;&emsp;Web Flow将一个流程分为若干个状态(可以理解为步骤)，每个流程由若干个状态组成，通过特性的方式在步骤之间进行跳转，协同完成整个流程。
-&emsp;&emsp;常用标签如下
+Web Flow将一个流程分为若干个状态(可以理解为步骤)，每个流程由若干个状态组成，通过特性的方式在步骤之间进行跳转，协同完成整个流程。
+<!--more-->
+常用标签如下
 
  - `<view-state>` - 视图状态，用于渲染视图
  - `<action-state>` - 动作状态，用于专门执行操作
@@ -104,26 +105,26 @@ transition还可以作为<action-state>的子元素，此时on中的内容就是
 ```
 <input type="submit" name="_eventId_proceed" value="Proceed" />
 ```
-&emsp;&emsp;原理：当web-flow发现请求参数中有以_eventId_字符串开头的参数时，会把该字符串中剩余字符串当做eventId。该方法可用于一次性触发多个事件
+原理：当web-flow发现请求参数中有以_eventId_字符串开头的参数时，会把该字符串中剩余字符串当做eventId。该方法可用于一次性触发多个事件
 
  - 使用hidden域
 
 ```
 <input type="hidden" name="_eventId" value="proceed" />
 ```
-&emsp;&emsp;原理：web-flow检测到请求参数中有名为_eventId的参数时，会将其值作为eventId进行触发
+原理：web-flow检测到请求参数中有名为_eventId的参数时，会将其值作为eventId进行触发
 
  - 使用url参数
 
 ```
 <a href="${flowExecutionUrl}&_eventId=cancel">Cancel</a>
 ```
-&emsp;&emsp;原理同上
+原理同上
 
  - web-flow检测eventId的逻辑
 首先检查有没有_eventId的参数，如果没有，检查有没有以_eventId_开头的参数名，都没有时，则没有事件会被触发。
 ####end-tate
-&emsp;&emsp;定义流程结束状态
+定义流程结束状态
 
  - 当该流程是子流程时，会接着下面的流程继续进行，<end-state>的id属性将会作为event id
  - 当该流程添加了view时，该view会被渲染。还可以添加属性，使得进行重定向之类的
