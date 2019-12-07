@@ -8,7 +8,7 @@ categories:
 ---
 
 Pipenv是一个包管理和虚拟环境工具，致力于将所有的打包工具（bundler, composer, npm, cargo, yarn等）中的优点带到python世界。它将pip和virtualenv结合起来，为每个project创建一个虚拟环境，同时通过Pipfile指定需要安装的依赖，并自动解析依赖的依赖，生成的Pipfile.lock将各依赖版本锁定，以使各个环境保持一致。
-
+<!--more-->
 ## 简单使用
 
 假设场景：创建一个新项目，访问某度，输出访问结果。使用Pycharm创建，目录结构和代码如下。
