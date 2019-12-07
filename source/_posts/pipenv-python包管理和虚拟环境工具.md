@@ -1,5 +1,5 @@
 ---
-title: pipenv - python包管理和虚拟环境工具介绍
+title: pipenv - python包管理和虚拟环境工具
 date: 2019-12-07 10:35:21
 tags:
 	- pipenv

@@ -1,5 +1,5 @@
 ---
-title: 域名系统介绍
+title: 域名系统介绍及原理
 abbrlink: 144a9ecb
 date: 2019-12-01 12:04:35
 tags: 
