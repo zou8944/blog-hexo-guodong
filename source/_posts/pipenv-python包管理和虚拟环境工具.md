@@ -47,11 +47,11 @@ Pipenv是一个包管理和虚拟环境工具，致力于将所有的打包工�
 
 - pip安装后找不到pipenv命令
 
-  这和pipenv的暗转没有关系，是python配置的问题，此时可通过绝对路径调用，新安装的命令位置一般在pip对应的python安装位置的bin目录下。
+  这和pipenv的安装没有关系，是python配置的问题，可通过绝对路径调用，新安装的命令位置一般在pip对应的python安装位置的bin目录下。
 
-- pipenv run运行时将virtualenv目录定位到了/root/.local/share/..目录下，导致Permission deny
+- 运行pipenv run python时将virtualenv目录定位到/root/.local/share/..目录下，导致Permission deny
 
-  由于我暂时不了解pipenv确定虚拟环境安装目录的方式，因此我的解决方案时让他安装在一个明确的位置——项目目录，方式是设置环境变量PIPENV_VENV_IN_project="true"
+  由于暂时不了解pipenv确定虚拟环境安装目录的依据，因此我的解决方案时让他安装在一个明确的位置——项目目录，方式是设置环境变量PIPENV_VENV_IN_project="true"
 
   ```shell
   export PIPENV_VENV_IN_project="true"
@@ -63,11 +63,11 @@ Pipenv是一个包管理和虚拟环境工具，致力于将所有的打包工�
 
 初次运行时pipenv会在某个位置为当前项目创建一个唯一的虚拟环境，该位置一般为执行用户的目录，上例中是/home/floyd/.local/share/virtualenvs/demo-G7_K1YDZ。如果觉得该位置不好，也可以设置系统环境变量PIPENV_VENV_IN_project="true"建立在当前项目目录，这是我比较倾向的方式，方便管理。
 
-一旦虚拟环境安装完成，后面所有针对pipenv的操作均是在该环境中进行，包括库的安装、任务的执行的。注意这种**非全局性**，这样OK，保证了隔离性，但也意味着我们需要对每个项目重新安装一次相同的依赖，这样会造成麻烦，尤其是经常需要创建多个项目的场景；还有使用IDE的场景，IDE默认解释器是全局的，因此即使使用pipenv安装完成，也会报import错误，因为全局python的路径中并无该库，这会对新手造成很大困扰。
+一旦虚拟环境安装完成，后面所有针对pipenv的操作均是在该环境中进行，包括库的安装、任务的执行等。注意这种**非全局性**，这样OK，保证了隔离性，但也意味着我们必须对每个项目重新安装一次相同的依赖，很麻烦，尤其是经常需要创建多个项目的场景；使用IDE时也会带来问题：IDE默认解释器是全局的，因此即使使用pipenv安装完成，也会报import错误，因为全局python的路径中并无该库，这会造成一定程度上的困扰。
 
 ### Pipfile
 
-通过pipenv install安装的依赖会写入此处，本例中初始内容如下。pipfile有着较为丰富的表现力，可以直接修改然后运行pipenv install裸命令完全按照该文件进行下载。
+通过pipenv install安装的依赖会写入此文件，本例中初始内容如下。pipfile有着较为丰富的表现力，可以直接修改然后运行pipenv install裸命令完全按照该文件进行下载。
 
 ```python
 [[source]]
@@ -84,7 +84,7 @@ requests = "*"
 python_version = "3.8"
 ```
 
-例如可以自由更换源，设置dev和prod环境依赖的不同，指定目标python版本等，甚至可以指定多个源，每个依赖使用指定的源进行下载。比如我的正式项目中的配置
+我们能操作的事项较多，例如可以自由更换源，设置dev和prod环境依赖的不同，指定目标python版本等，甚至可以指定多个源，每个依赖使用指定的源进行下载。如下展示了我的一个正式项目中的配置
 
 ```shell
 [[source]]
@@ -118,7 +118,7 @@ python_version = "3"
 
 ### Pipfile.lock
 
-一个Pipfile.lock文件如下，它固定了所有依赖和运行环境等内容。
+一个Pipfile.lock文件如下，它固定了所有依赖和运行环境等内容，由Pipfile生成，不归我们修改，这里仅做展示。
 
 ```python
 {
