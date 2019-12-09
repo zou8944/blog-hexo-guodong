@@ -180,7 +180,28 @@ python_version = "3"
 }
 ```
 
+# Pycharm配置pipenv
+
+> 更新于次日
+
+上面的例子说到，安装pipenv并创建虚拟环境后，新安装的库不会在全局解释器中生效，导致Pycharm无法给予正确的提示，非常不便。而Pycharm实际上是提供将解释器设置为pipenv的方式，可以解决这个问题。这里以已经存在的项目为例进行pipenv环境配置，按下列方式进入设置界面
+
+File => Settings => Project:{你的项目名} => Project Intercepter
+
+![image-20191209145003311](/home/floyd/PersonalCode/blog/source/_posts/pipenv-python包管理和虚拟环境工具/image-20191209145003311.png)
+
+点击图中标记设置图片，选择“Add”，来到解释器添加界面。选择Pipenv Environment。两项需要填写：
+
+- Base intercepter: 选择你安装pipenv的python可执行文件
+- Pipenv executable: 选择你事先安装的pipenv的执行文件
+
+![image-20191209145341432](/home/floyd/PersonalCode/blog/source/_posts/pipenv-python包管理和虚拟环境工具/image-20191209145341432.png)
+
+> - 注意事项1： 在Pycharm中添加pipenv环境前必须先手动将原先生成的virtualenv文件夹删除，否则会出现环境设置失败的情况。
+> - 注意事项2： 该配置方式在IDEA中同样适用，因为Pycharm本就是IDEA的子集
+
 # 参考资料
 
-[pipenv官方手册](https://pipenv.kennethreitz.org/en/latest/install/)
+1. [pipenv官方手册](https://pipenv.kennethreitz.org/en/latest/install/)
+2. [Configure Pipenv environments（IntelliJ IDEA官方手册）](https://www.jetbrains.com/help/idea/pipenv.html)
 
