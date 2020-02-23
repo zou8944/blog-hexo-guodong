@@ -1,5 +1,5 @@
 ---
-title: 深入了解Nginx的server和location的匹配算法
+title: 深入Nginx的server和location匹配算法
 date: 2020-02-22 21:05:35
 tags:
 - Nginx
@@ -12,6 +12,8 @@ categories:
 根据墨菲定律，可能会发生的事就一定会发生。如果对Nginx的路径配置一直存疑，迟早会出问题。因此，搞懂很重要。
 
 总体来说，Nginx将配置根据不同的server分成了不同的块，每当一个请求过来时，Nginx都会根据一定的算法确定哪一个配置块来处理该请求。其中起关键性作用的是server块和location块。前者定义了一个虚拟服务器，管理员通常会定义多个server块，然后根据请求的域名，端口或IP决定匹配到哪一个；后者存在于server块内，根据URI对虚拟服务器进行更加详细的区分。二者组合起来能够实现非常灵活的配置。
+
+<!-- more -->
 
 # server
 
