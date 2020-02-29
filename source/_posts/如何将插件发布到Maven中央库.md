@@ -31,19 +31,19 @@ categories:
 
 ## 创建JIRA账号
 
-https://issues.sonatype.org/login.jsp
+登录[Snatype JIRA](https://issues.sonatype.org/login.jsp)
 
-![image-20200229174034285](/home/floyd/PersonalCode/blog/source/_posts/如何将插件发布到Maven中央库/image-20200229174034285.png)
+![image-20200229174034285](image-20200229174034285.png)
 
 收到邮件代表创建成功。
 
 ## 新建工单
 
-https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134
+还是登录[Snatype JIRA](https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134)
 
 依次填入概要、Group Id、Project URL（项目URL，可填github项目主页）、SCM url（项目版本控制链接）
 
-![image-20200229174512183](/home/floyd/PersonalCode/blog/source/_posts/如何将插件发布到Maven中央库/image-20200229174512183.png)
+![image-20200229174512183](image-20200229174512183.png)
 
 工单创建成功后需要等待邮件确认，反复几个来回后才能正常发布。下图是截止申请成功的所有交流。可以看到会有如下几个步骤
 
@@ -52,7 +52,7 @@ https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134
 - 验证完成，允许用户发布组件到仓库
 - 申请的Group Id激活，用户发布的组件能够被同步到中央仓库（但要花两个小时）
 
-![image-20200229175945672](/home/floyd/PersonalCode/blog/source/_posts/如何将插件发布到Maven中央库/image-20200229175945672.png)
+![image-20200229175945672](image-20200229175945672.png)
 
 # GPG签名准备
 
@@ -108,7 +108,7 @@ https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134
 
   如果发送成功，你可能会收到opengpg发送的邮件
 
-  ![image-20200229181853303](/home/floyd/PersonalCode/blog/source/_posts/如何将插件发布到Maven中央库/image-20200229181853303.png)
+  ![image-20200229181853303](image-20200229181853303.png)
 
   但这一步很可能会遇到问题，这在后面的问题集中有介绍
 
@@ -298,11 +298,11 @@ mvn clean deploy
 
 执行成功，等待大约两个小时，你就能在[中央库](https://search.maven.org/)查询到自己的组件了。例如搜索我刚才发布的组件。
 
-![image-20200229190119427](/home/floyd/PersonalCode/blog/source/_posts/如何将插件发布到Maven中央库/image-20200229190119427.png)
+![image-20200229190119427](image-20200229190119427.png)
 
 点击进入，可以查看详情，[这里](https://search.maven.org/artifact/com.github.zou8944/json-loader-maven-plugin/1.0.0/maven-plugin)
 
-![image-20200229190243615](/home/floyd/PersonalCode/blog/source/_posts/如何将插件发布到Maven中央库/image-20200229190243615.png)
+![image-20200229190243615](image-20200229190243615.png)
 
 而作为一个插件，可以通过如下方式使用它
 
@@ -331,13 +331,13 @@ mvn clean deploy
 
 - 在snatype上无法找到对应的profile
 
-  ![image-20200229131357158](/home/floyd/PersonalCode/blog/source/_posts/如何将插件发布到Maven中央库/image-20200229131357158.png)
+  ![image-20200229131357158](image-20200229131357158.png)
 
   该问题是由于pom的GroupId和第一步申请JIRA账号时指定的GroupId不一致导致，修改本地使得一致即可
 
 - 组件上传成功，但服务端签名校验失败
 
-  ![image-20200229133647975](/home/floyd/PersonalCode/blog/source/_posts/如何将插件发布到Maven中央库/image-20200229133647975.png)
+  ![image-20200229133647975](image-20200229133647975.png)
 
   该问题在于没有上传本地生成的密钥对。执行`gpg --send-key <ID>`生成即可。上传后，收到opengpg发来的邮件才能确认上传成功。
 
