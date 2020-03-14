@@ -120,7 +120,7 @@ logger.warning('Hello, World!!!')
 
 创建Logger使用`logging.getLogger('name')`方法，当Logger实例已存在，则直接返回，不存在则创建。
 
-Logger具有层次结构，其结构主要通过名称提现，以.分隔。如名为root的Logger实例是名为root.hello、root.world的Logger实例的父级。
+Logger具有层次结构，主要通过名称体现，以.分隔。如名为root的Logger实例是名为root.hello、root.world的Logger实例的父级。
 
 层级结构的好处在于减少配置的冗余，以及消息的冒泡传递：在子Logger没有声明级别的情况下，使用父Logger的级别，以此类推，如果都没有设置级别，则会使用root的Warning级别；日志输出时，除了执行当前Logger的所有逻辑外，还可以传递给父Logger，如上图所示。
 
