@@ -1,5 +1,5 @@
 ---
-title: 用Prometheus和Grafana监控你的服务器.md
+title: 用Prometheus和Grafana监控你的服务器
 date: 2020-03-21 20:38:53
 tags:
  - Prometheus
