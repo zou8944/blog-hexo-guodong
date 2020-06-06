@@ -1,5 +1,5 @@
 ---
-reuslttitle: Kotlin协程 - 使用篇
+reuslttitle: Kotlin协程详述
 date: 2020-05-25 22:57:26
 tags:
  - kotlin
@@ -9,6 +9,8 @@ categories:
 ---
 
 > 使用协程已经有较长的时间了，但一直停留在launch、async启动协程，suspend方法挂起的阶段。这段时间系统梳理Kotlin知识时才发现，对协程（仅对Kotlin）还有很多概念不甚了解。例如CoroutineScope对协程生命周期的重要性、协程父子结构的作用、结构化并发、一些Kotlin协程中约定俗称的规定等。
+
+<!-- more -->
 
 # 概述
 
